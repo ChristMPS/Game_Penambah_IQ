@@ -17,7 +17,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:#dceeff;font-family:
 .screen{display:none;width:100%;height:100%;position:absolute;inset:0;}
 .screen.active{display:flex;}
 
-/* ===== MENU ===== */
+/*Buat Menu*/
 #screen-menu{flex-direction:column;align-items:center;overflow-y:auto;padding:14px 13px 28px;gap:11px;background:var(--bg);}
 .ttl{text-align:center;}
 .ttl h1{font-family:var(--fd);font-size:clamp(16px,5.2vw,29px);font-weight:900;letter-spacing:1px;line-height:1.3;color:#fff;text-shadow:0 0 10px var(--nb),0 0 26px rgba(0,212,255,.3);}
@@ -46,7 +46,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:#dceeff;font-family:
 .sbtn{width:100%;max-width:480px;padding:14px;background:rgba(0,90,170,.16);border:2px solid var(--nb);border-radius:8px;color:#fff;font-family:var(--fd);font-size:14px;font-weight:900;letter-spacing:4px;cursor:pointer;text-transform:uppercase;}
 .sbtn:active{opacity:.65;}
 
-/* ===== LOBBY SCREEN ===== */
+/*tampilan lobby gwehh*/
 #screen-lobby{background:var(--bg);flex-direction:column;align-items:center;justify-content:center;padding:20px;gap:16px;}
 .lobby-title{font-family:var(--fd);font-size:clamp(14px,4vw,22px);font-weight:900;color:#fff;text-shadow:0 0 10px var(--nb);text-align:center;letter-spacing:2px;}
 .lobby-subtitle{font-size:9px;color:rgba(0,212,255,.5);letter-spacing:4px;text-align:center;margin-top:-8px;}
@@ -57,7 +57,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:#dceeff;font-family:
 .lmbtn:active{opacity:.7;}
 .lobby-sep{height:1px;background:rgba(0,212,255,.1);margin:2px 0;}
 
-/* Create room panel */
+/*tempat buat room*/
 #panel-create{display:flex;flex-direction:column;gap:10px;}
 .room-code-display{
   font-family:var(--fd);font-size:clamp(32px,10vw,56px);font-weight:900;
@@ -82,7 +82,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:#dceeff;font-family:
 .start-game-btn:disabled{opacity:.3;cursor:not-allowed;}
 .start-game-btn:not(:disabled):active{opacity:.7;}
 
-/* Join room panel */
+/*joinnya*/
 #panel-join{display:none;flex-direction:column;gap:10px;}
 .join-label{font-size:9px;letter-spacing:3px;color:rgba(0,212,255,.5);text-transform:uppercase;}
 .join-input{
@@ -101,7 +101,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:#dceeff;font-family:
 #join-status.err{color:var(--nr);}
 #join-status.ok{color:var(--ng);}
 
-/* Join waiting panel */
+/*nunggu join*/
 #panel-join-wait{display:none;flex-direction:column;gap:10px;align-items:center;}
 .join-wait-code{font-family:var(--fd);font-size:11px;letter-spacing:3px;color:rgba(0,212,255,.5);}
 .join-wait-pulse{
@@ -116,14 +116,14 @@ html,body{width:100%;height:100%;background:var(--bg);color:#dceeff;font-family:
   cursor:pointer;padding:6px;text-align:center;text-decoration:underline;
 }
 
-/* Config summary (visible to guests during wait) */
+/*config*/
 .config-summary{
   display:flex;flex-wrap:wrap;gap:5px;justify-content:center;
   font-size:8px;letter-spacing:1px;color:rgba(170,200,255,.4);
 }
 .cs-tag{padding:3px 8px;background:rgba(0,212,255,.06);border:1px solid rgba(0,212,255,.12);border-radius:12px;}
 
-/* ===== NAME INPUT SCREEN ===== */
+/*input nama*/
 #screen-names{background:var(--bg);flex-direction:column;align-items:center;justify-content:center;padding:20px;gap:14px;}
 .names-title{font-family:var(--fd);font-size:12px;letter-spacing:3px;color:var(--nb);text-align:center;}
 #names-layout{width:100%;height:85%;position:relative;}
