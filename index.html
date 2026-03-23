@@ -110,6 +110,16 @@ html,body{
 .game-card.g1{border-left:3px solid var(--nb);}
 .game-card.g2{border-left:3px solid var(--nr);}
 
+  .game-card.g4{border-left:3px solid var(--ny);}
+.game-card.g4 .card-title{color:var(--ny);}
+.game-card.g4 .card-badge{color:var(--ny);border:1px solid rgba(255,204,0,.3);}
+.game-card.g4 .card-arrow{color:var(--ny);}
+@keyframes cardGlow4{
+  0%,100%{box-shadow:0 0 0px rgba(255,204,0,0);}
+  50%{box-shadow:0 0 16px rgba(255,204,0,.12),0 0 32px rgba(255,204,0,.06);}
+}
+.game-card.g4{animation:cardGlow4 3s ease-in-out 3s infinite;}
+
 .card-icon{
   font-size:clamp(28px,9vw,42px);
   line-height:1;
