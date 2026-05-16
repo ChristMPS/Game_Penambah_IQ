@@ -1,0 +1,21 @@
+{
+  "short_name": "Brain games",
+  "name": "Christ's GameHub",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#FFFFFF",
+  "theme_color": "#007BFF",
+  "display": "standalone",
+  "orientation": "portrait"
+}
